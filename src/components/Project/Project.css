@@ -1,0 +1,23 @@
+.project {
+    max-width: 370px;
+    background-color: #171718;
+    border-radius: 10px;
+}
+
+.project__image {
+    width: 100%;
+    max-height: 216px;
+    border-radius: 10px;
+}
+
+.project__title {
+    color: white;
+    font-size: 24px;
+	font-weight: 700;
+    padding: 15px 20px 25px;
+}
+
+a {
+    text-decoration: none;
+    max-width: 370px;
+}

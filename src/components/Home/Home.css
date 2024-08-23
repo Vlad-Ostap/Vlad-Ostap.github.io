@@ -1,0 +1,61 @@
+.home {
+    margin-top: 80px;
+    background-color: #171718;
+}
+
+.header {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url('../../assets/home-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header__title {
+    font-size: 45px;
+    line-height: 1.4;
+}
+
+.header__title strong {
+    font-size: 60px;
+}
+
+.header__title span {
+    color: brown;
+}
+
+.header__text {
+    font-size: 20px;
+    line-height: 2.8;
+}
+
+.skills {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    background-color: #252526;
+    padding: 50px 0;
+}
+
+.skills__content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.skills p {
+    font-size: 20px;
+}
+
+.skills__frontend {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.skills__backend {
+    line-height: 1.5;
+}

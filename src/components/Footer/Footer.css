@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #171718;
+    border-top: 0.5px solid #26292d;;
+}
+
+.linkedin__img, .github__img {
+    width: 40px;
+    height: 40px;
+    fill: white;
+    margin: 0 10px;
+}

@@ -1,0 +1,15 @@
+.projects {
+    margin: 160px 0 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.projects__title {
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
