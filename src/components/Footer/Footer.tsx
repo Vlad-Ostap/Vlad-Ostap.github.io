@@ -10,7 +10,7 @@ const Footer = () => {
                         </svg>
                     </a>
 
-                    <a href="https://github.com/QuantumMooncake" target='_blank'>
+                    <a href="https://github.com/Vlad-Ostap" target='_blank'>
                         <svg className='github__img'>
                             <use href='#github'></use>
                         </svg>

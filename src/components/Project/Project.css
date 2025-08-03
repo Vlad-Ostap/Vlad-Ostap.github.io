@@ -1,5 +1,6 @@
 .project {
-    max-width: 370px;
+    width: 370px;
+    height: 285px;
     background-color: #171718;
     border-radius: 10px;
 }
