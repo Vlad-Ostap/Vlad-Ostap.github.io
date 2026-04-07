@@ -48,3 +48,11 @@
 .navbar__link:hover {
     opacity: 0.5;
 }
+
+@media (max-width: 500px) {
+    .navbar__content {
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

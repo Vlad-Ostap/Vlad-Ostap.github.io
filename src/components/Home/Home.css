@@ -59,3 +59,13 @@
 .skills__backend {
     line-height: 1.5;
 }
+
+@media (max-width: 700px) {
+    .header__title strong {
+        font-size: 45px;
+    }
+
+    .skills {
+        font-size: 20px;
+    }
+}

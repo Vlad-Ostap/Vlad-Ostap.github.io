@@ -17,16 +17,20 @@ const ProjectPage = () => {
                             <p className='project__skills'>Skills: {project.skills}</p>
                             <p className='project__description'>Description: {project.description}</p>
                         </div>
-                        <a className='github__btn' href={
-                            project.title === 'RoyalHeaven'
-                                ? `https://github.com/Vlad-Ostap/Diploma-project`
-                                : `https://github.com/Vlad-Ostap/Portfolio-projects/tree/main/${project.title}`
-                        } target='__blank'>
-                            <svg className='github__btn__img'>
-                                <use href='#github' style={{ fill: 'black' }}></use>
-                            </svg>
-                            <p>Github repo</p>
-                        </a>
+                        <div className='projects__links'>
+                            <a className='link__btn github' href={`${project.githubLink}`} target='__blank'>
+                                <svg className='link__btn__img'>
+                                    <use href='#github' style={{ fill: 'black' }}></use>
+                                </svg>
+                                <p>Github repo</p>
+                            </a>
+                            <a className='link__btn visit' href={`${project.visitLink}`} target='__blank'>
+                                <svg className='link__btn__img visit'>
+                                    <use href='#visit-site' style={{ fill: 'black' }}></use>
+                                </svg>
+                                <p>Visit site</p>
+                            </a>
+                        </div>
                     </div> :
                     <h1 className='error__message'>The project does not exist</h1>
             }

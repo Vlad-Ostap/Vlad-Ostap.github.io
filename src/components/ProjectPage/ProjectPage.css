@@ -33,12 +33,19 @@
     margin-bottom: 30px;
 }
 
-.github__btn {
-    max-width: 200px;
+.projects__links {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    gap: 20px;
+}
+
+.link__btn {
+    max-width: 200px;
+    min-width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px;
     background-color: white;
     font-size: 20px;
@@ -48,15 +55,19 @@
     transition: all 0.1s linear;
 }
 
-.github__btn:hover {
+.link__btn:hover {
     background-color: #bababa;
 }
 
-.github__btn__img {
+.link__btn__img {
     height: 30px;
     width: 30px;
     margin-right: 8px;
     color: black;
+}
+
+.link__btn__img.visit {
+    margin-right: 10px;
 }
 
 .error__message {
