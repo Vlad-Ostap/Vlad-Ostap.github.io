@@ -7,9 +7,9 @@ const Home = () => {
             <div className='header'>
                 <div className='container'>
                     <h1 className='header__title'>
-                        <strong>Hi, my name is <span>Vladislav</span>, a frontend developer</strong>
+                        <strong>Hi, I'm <span>Vladislav</span>, a Web Developer</strong>
                     </h1>
-                    <h1 className='header__text'>with a passion for learning and creating.</h1>
+                    <h1 className='header__text'>building modern and user-focused web applications.</h1>
                 </div>
             </div>
             <section className='skills'>
@@ -17,11 +17,11 @@ const Home = () => {
                     <div className='skills__content'>
                         <div className='skills__frontend'>
                             <h1>Frontend</h1>
-                            <p>Next.js, React.js, Redux, NextAuth, JavaScript, TypeScript, React Router DOM, HTML, CSS</p>
+                            <p>Next.js, React, Redux, NextAuth, JavaScript, TypeScript, HTML, CSS</p>
                         </div>
                         <div className='skills__backend'>
                             <h1>Backend</h1>
-                            <p>Prisma (ORM), PostgreSQL, Node.js, Express</p>
+                            <p>Node.js, Express, PostgreSQL, Prisma</p>
                         </div>
                     </div>
 
