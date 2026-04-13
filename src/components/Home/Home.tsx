@@ -7,7 +7,7 @@ const Home = () => {
             <div className='header'>
                 <div className='container'>
                     <h1 className='header__title'>
-                        <strong>Hi, I'm <span>Vladislav</span>, a Web Developer</strong>
+                        <strong>Hi, I'm <span className='name'>Vladislav</span>, a <span className='role'>Web Developer</span></strong>
                     </h1>
                     <h1 className='header__text'>building modern and user-focused web applications.</h1>
                 </div>

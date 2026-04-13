@@ -24,8 +24,12 @@
     font-size: 60px;
 }
 
-.header__title span {
+.name {
     color: brown;
+}
+
+.role {
+    display: inline;
 }
 
 .header__text {
@@ -67,5 +71,11 @@
 
     .skills {
         font-size: 20px;
+    }
+}
+
+@media (min-width: 700px) {
+    .role {
+        display: block;
     }
 }
