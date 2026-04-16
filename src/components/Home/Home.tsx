@@ -17,11 +17,11 @@ const Home = () => {
                     <div className='skills__content'>
                         <div className='skills__frontend'>
                             <h1>Frontend</h1>
-                            <p>Next.js, React, Redux, NextAuth, JavaScript, TypeScript, HTML, CSS</p>
+                            <p>Next.js, React, Redux, TypeScript, JavaScript, HTML, CSS</p>
                         </div>
                         <div className='skills__backend'>
                             <h1>Backend</h1>
-                            <p>Node.js, Express, PostgreSQL, Prisma</p>
+                            <p>Node.js, Express, Prisma</p>
                         </div>
                     </div>
 
