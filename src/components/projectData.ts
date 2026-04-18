@@ -31,7 +31,7 @@ export const ProjectData: ProjectInterface[] = [
         skills: 'Next.js (TypeScript), Prisma, PostgreSQL, NextAuth, HTML, CSS',
         description: 'A hotel booking web service built with Next.js and TypeScript, featuring a PostgreSQL database managed via Prisma ORM. Includes authentication with NextAuth, secure route handling, and a responsive UI for browsing and booking rooms.',
         githubLink: 'https://github.com/Vlad-Ostap/Diploma-project',
-        visitLink: 'https://ostap.uk',
+        visitLink: 'https://royalheaven.ostap.uk',
     },
     {
         id: 3,
@@ -40,7 +40,7 @@ export const ProjectData: ProjectInterface[] = [
         skills: 'React.js, Redux Toolkit, React Router DOM, HTML, CSS',
         description: 'A clothing store built with React.js. Implements state management using Redux Toolkit and client-side routing with React Router DOM. Features product catalog browsing, filtering, and a responsive design.',
         githubLink: 'https://github.com/Vlad-Ostap/Portfolio-projects/tree/main/ClothingStore',
-        visitLink: 'https://app.ostap.uk/ClothingStore',
+        visitLink: 'https://clothingstore.ostap.uk',
     },
     {
         id: 4,
@@ -49,7 +49,7 @@ export const ProjectData: ProjectInterface[] = [
         skills: 'JavaScript, HTML, CSS',
         description: 'A simple static website developed using vanilla JavaScript, HTML, and CSS. Showcases animations and responsive design.',
         githubLink: 'https://github.com/Vlad-Ostap/Portfolio-projects/tree/main/FlexiCube',
-        visitLink: 'https://app.ostap.uk/FlexiCube',
+        visitLink: 'https://flexicube.ostap.uk',
     },
     {
         id: 5,
@@ -58,6 +58,6 @@ export const ProjectData: ProjectInterface[] = [
         skills: 'HTML, CSS',
         description: 'A simple static gaming website designed with HTML and CSS, featuring a clean layout and responsive design to present gaming-related content effectively.',
         githubLink: 'https://github.com/Vlad-Ostap/Portfolio-projects/tree/main/GamingSite',
-        visitLink: 'https://app.ostap.uk/GamingSite',
+        visitLink: 'https://gamingsite.ostap.uk',
     },
 ]
