@@ -38,30 +38,64 @@
 }
 
 .skills {
-    width: 100%;
-    font-size: 25px;
-    text-align: center;
-    color: white;
+    padding: 100px 0;
     background-color: #252526;
-    padding: 50px 0;
+    color: white;
+}
+
+.skills__title {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 60px;
 }
 
 .skills__content {
-    max-width: 600px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
 }
 
-.skills p {
-    font-size: 20px;
+.skill-card {
+    background: #1f1f20;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 30px;
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
 }
 
-.skills__frontend {
+.skill-card:hover {
+    transform: translateY(-5px);
+    border-color: brown;
+    box-shadow: 0 10px 30px rgba(165, 42, 42, 0.2);
+}
+
+.skill-card h3 {
     margin-bottom: 20px;
-    line-height: 1.5;
+    font-size: 24px;
+    color: brown;
 }
 
-.skills__backend {
-    line-height: 1.5;
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    cursor: default;
+}
+
+.skill-tags span {
+    padding: 10px 16px;
+    background: #2d2d30;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 1px solid #3c3c3c;
+    transition: all 0.3s ease;
+}
+
+.skill-tags span:hover {
+    background: brown;
+    border-color: brown;
 }
 
 @media (max-width: 700px) {

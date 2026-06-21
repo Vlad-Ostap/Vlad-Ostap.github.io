@@ -12,10 +12,40 @@
 
 .project__img {
     width: 100%;
+    border-radius: 20px;
+    border: 1px solid #3d3d3d;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .project__info {
-    text-align: center;
+    margin: 30px 0;
+    padding: 10px 30px;
+    background: #252526;
+    border: 1px solid #3d3d3d;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.project__tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+.project__tech-tag {
+    padding: 8px 16px;
+    background: #2d2d30;
+    border: 1px solid #444;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+}
+
+.project__section-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 .project__skills {
@@ -27,10 +57,9 @@
 }
 
 .project__description {
-    font-size: 18px;
     color: #dcdcdc;
-    line-height: 1.6;
-    margin-bottom: 30px;
+    line-height: 1.8;
+    font-size: 18px;
 }
 
 .projects__links {
@@ -42,22 +71,28 @@
 }
 
 .link__btn {
-    max-width: 200px;
-    min-width: 185px;
+    min-width: 200px;
+    height: 55px;
+
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    font-size: 20px;
-    color: black;
-    border: 1px black solid;
-    border-radius: 8px;
-    transition: all 0.1s linear;
+    justify-content: center;
+    gap: 10px;
+
+    background: #fff;
+    color: #000;
+
+    border-radius: 12px;
+    border: none;
+
+    font-weight: 600;
+
+    transition: all .25s ease;
 }
 
 .link__btn:hover {
-    background-color: #bababa;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(255,255,255,.15);
 }
 
 .link__btn__img {
