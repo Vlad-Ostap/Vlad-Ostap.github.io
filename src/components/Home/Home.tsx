@@ -38,7 +38,6 @@ const Home = () => {
                                 <span>Node.js</span>
                                 <span>Express</span>
                                 <span>Prisma</span>
-                                <span>PostgreSQL</span>
                                 <span>REST API</span>
                             </div>
                         </div>
